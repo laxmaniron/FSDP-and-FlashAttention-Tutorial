@@ -62,12 +62,6 @@ This project utilizes PyTorch's FSDP for training large models across multiple G
 
 3. Open a web browser and navigate to [http://localhost:6006](http://localhost:6006) to view the TensorBoard dashboard and analyze the results.
 
-## Additional Resources
-
-- [PyTorch FSDP Documentation](https://pytorch.org/docs/stable/_modules/torch/distributed/fsdp.html)
-- [PyTorch Profiler Documentation](https://pytorch.org/docs/stable/profiler.html)
-- [TensorBoard Documentation](https://www.tensorflow.org/tensorboard)
-
 ## Troubleshooting
 
 If you encounter any issues or have questions, refer to the official documentation or contact the repository maintainers.
