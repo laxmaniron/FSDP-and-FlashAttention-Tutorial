@@ -6,14 +6,15 @@ This project utilizes PyTorch's FSDP for training large models across multiple G
 
 - Python 3.x
 - pip3
-- A machine with one or more GPUs
+- A machine with atleast 2 GPUS
+- CUDA 11.8
 
 ## Installation
 
 1. **Install PyTorch, torchvision, and torchaudio:**
    Ensure you have at least PyTorch version 2.0. Run the following command to install PyTorch and its related libraries:
     ```bash
-    pip3 install --pre torch torchvision torchaudio
+    pip3 install torch torchvision torchaudio
     ```
 
 2. **Install PyTorch Profiler and TensorBoard:**
