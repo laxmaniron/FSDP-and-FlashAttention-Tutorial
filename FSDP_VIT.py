@@ -187,8 +187,8 @@ def fsdp_main(rank, world_size, args):
 
     # model = Net().to(rank)
 
-    # model = FSDP(model)
-    model = DDP(model)
+    model = FSDP(model)
+    # model = DDP(model)
 
     # writer = None
     # # if rank == 0:
